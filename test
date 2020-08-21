@@ -1,0 +1,14 @@
+name = input("Nombre")
+
+sur_name = input("Apellido")
+
+names = ["Test", "test1", "test2"]
+sur_names = ["Uno", "Dos"]
+
+if name in names:
+    if sur_name in sur_names:
+        print("Accediendo a tus datos")
+
+
+if name not in names:
+    print("no estas en la base de datos")
